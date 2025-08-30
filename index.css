@@ -1,6 +1,8 @@
+h1,h3{
+    text-align: center;
+}
 h1{
     font-size: 35px;
-    text-align: center;
 }
 p{
     width: 75%;
@@ -13,4 +15,24 @@ h2{
 }
 a{
     color: rgb(124, 173, 230);
+}
+table{
+    outline: 1px rgb(66, 66, 66) solid;
+    padding: 5px;
+    margin: 0 auto;
+}
+table *{
+    padding: 5px;
+}
+table>thead th:nth-child(odd) {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+table>thead th:nth-child(even) {
+    border-bottom: 1px solid rgb(122, 122, 122);
+}
+table>tbody th,td:nth-child(even){
+    background-color: rgb(122, 122, 122, 0.082);
+}
+table>tbody th,td:nth-child(odd){
+    background-color: rgba(204, 204, 204, 0.082);;
 }
