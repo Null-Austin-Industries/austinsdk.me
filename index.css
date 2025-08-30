@@ -1,0 +1,16 @@
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    width: 75%;
+    margin: 0 auto;
+    text-align: justify;
+}
+h2{
+    color: rgb(199, 49, 49);
+    text-align: center;
+}
+a{
+    color: rgb(124, 173, 230);
+}
