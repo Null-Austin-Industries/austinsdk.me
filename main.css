@@ -11,3 +11,21 @@ body,html{
     margin: 0;
     padding: 0;
 }
+span.small{
+    font-size: 0px;
+    background-color: violet;
+}
+span.small::before{
+    content: "?";
+    font-size: 10px;
+}
+span.small:hover::before {
+    content: "";
+}
+span.small:hover{
+    font-size: 10px;
+    background-color: rgb(78, 51, 78);
+    padding: 3px;
+    border-radius: 3px;
+    border: 2px rgb(112, 72, 112) solid;
+}
